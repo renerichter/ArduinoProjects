@@ -13,3 +13,7 @@ For such tracking already a lot of systems, even in the homebuild area, do exist
 ## Theoretical Materials
 * On basics of electric circuits (http://www.loetstelle.net/grundlagen/grundlagen.php )
 * The humidity Sensor Setup (http://www.loetstelle.net/arduino/hyt939/hyt939.php)
+
+## STATUS
+Just BEGUN at@06.09.2016
+

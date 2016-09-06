@@ -1,0 +1,39 @@
+body { font-family: Verdana, Arial, Helvetica, sans-serif; background-color: white; margin: 0; }
+
+p { }
+
+td { }
+
+a:link { color: #FF9900; }
+
+a:visited {color: #FF9900}
+
+a:hover {color: #FF9900 }
+
+a:active { }
+.toplogo { background-image: url(/images/loetstelle_toplogo.jpg); background-repeat: no-repeat; height: 90px; border-width: 0; }
+.menu_top { font-size: 0.9em; font-weight: bold; background-image: url(/images/left_but_bg.jpg); background-repeat: repeat-x; text-align: center; width: 150px; height: 25px; border-top-color: black; border-top-style: solid; }
+.menu_item { font-size: 0.7em; background-image: url(/images/bottom_bg.gif); background-repeat: repeat-x; text-align: center; width: 150px; height: 23px; }
+.content_header { color: #325a62; font-size: 16pt; font-weight: bold; background-image: url(/images/corner.gif); background-repeat: no-repeat; height: 89px; padding-top: 35px; padding-left: 35px; }
+.static_links { font-size: 6pt; padding-left: 12px; }
+.column_left { background-image: url(/images/left_bg.jpg); background-repeat: repeat-y; vertical-align:top; width: 150px; }
+.usercount { color: #ccc; font-size: 8pt; background-color: #2f5965; background-image: url(/images/left_bg.jpg); background-repeat: no-repeat; text-align: center; vertical-align: bottom; }
+.page_footer { color: #ccc; font-size: 8pt; background-image: url(/images/bottom_bg.gif); background-repeat: repeat-x; text-align: center; height: 23px; }
+.content { font-size: 10pt; line-height: 1.4; text-align: justify; width: 90%; padding-left: 12px; }
+.content_subheadline { font-size: 12pt; font-weight: bold; vertical-align: middle; margin-top: 25px; margin-bottom: 35px; }
+.image_frame { font-size: 9pt; font-style: italic; margin-bottom: 24px; padding: 12px; outline: solid 1px gray; }
+.column_right { vertical-align: top; width: 160px; }
+
+#menu_item a:link { color: #ff9900}
+#menu_item a:visited { color: #ff9900}
+#menu_item a:hover { color: #ff9900}
+
+#mdb_link a:link { color: #0044cc}
+#mdb_link a:visited { color: #0044cc}
+#mdb_link a:hover { color: #0044cc}
+.text_verysmall { font-size: 7pt; }
+.adsense_bottom { padding-left: 8px; }
+.asm_code { font-family: "Courier New", Courier, Monaco, monospace; background-color: silver; width: 70%; padding-left: 12px; }
+.adlinks_headline { height: 20pt; padding-left: 12px; }
+.resource_header { background-color: #e88974; }
+.resource_data { font-family: "Courier New", Courier, Monaco, monospace; background-color: #e4e4e4; }
