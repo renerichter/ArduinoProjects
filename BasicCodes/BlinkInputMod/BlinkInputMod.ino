@@ -38,13 +38,15 @@ void loop() {
   if (Serial.available() > 0) {
     int thisChar = Serial.read();
     if (isDigit(thisChar)){
-      if(thisChar == 1){
-        digitalWrite(13, HIGH);   // turn the LED on (HIGH is the voltage level)
-        delay(1000);              // wait for a second
-        digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
-        delay(1000);              // wait for a second
+      if(thisChar == 49){
+        for(int myi=0; myi < 10;myi++) {
+          digitalWrite(13, HIGH);   // turn the LED on (HIGH is the voltage level)
+          delay(200);              // wait for a second
+          digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
+          delay(200);              // wait for a second
+        }
       }
-      else if(thisChar == 0){
+      else if(thisChar == 48){
         digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
         delay(1000);              // wait for a second
       }

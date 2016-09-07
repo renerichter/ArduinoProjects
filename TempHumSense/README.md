@@ -9,6 +9,7 @@ For such tracking already a lot of systems, even in the homebuild area, do exist
 * Conrad Wires (from Wiring Set, Nr. 526797)
 * Conrad Carbon-Film Resistors (from: Carbon-film resistor assortment, 390pcs, Nr. 418706)
 * Humidity Sensor HYT-939_FSD (Product Sheets in Materials subfolder)
+* Arduino housing: http://www.thingiverse.com/thing:628929
 
 ## Theoretical Materials
 * On basics of electric circuits (http://www.loetstelle.net/grundlagen/grundlagen.php )
