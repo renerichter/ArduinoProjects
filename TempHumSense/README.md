@@ -18,3 +18,13 @@ For such tracking already a lot of systems, even in the homebuild area, do exist
 ## STATUS
 Just BEGUN at@06.09.2016
 
+# Protocol
+## 07.09.2016
+* Measurement works now reliable with modified code from link above (http://www.loetstelle.net/arduino/hyt939/hyt939.php)
+* printing housing for Arduino from: http://www.thingiverse.com/thing:628929
+* Compressing wiring so that it's easily transportable "as a whole"
+Routine for Data-Tracking in Python: v0.00315:
+* PySerial-library: https://github.com/pyserial/pyserial
+* 
+
+

@@ -24,7 +24,7 @@ void setup()
   Wire.begin();
   Serial.begin(9600);
   pinMode(LED_PIN, OUTPUT);
-  Serial.println("~System initialized~");
+  //Serial.println("~System initialized~");
 }
 
 void loop() {
@@ -122,12 +122,14 @@ void loop() {
 
   hum = (double)hraw / HFACTOR;
 
-  Serial.print("Temp:");
+  //Serial.print("Temp:");
   Serial.print(temp);
-  Serial.print(';');
+  //Serial.print(';');
 
-  Serial.print("Hum:");
-  Serial.println(hum);
+  //Serial.print("Hum:");
+  Serial.print("\t");
+  Serial.print(hum);
+  //Serial.println();
   Serial.print("\n");
 
 
@@ -139,7 +141,7 @@ void loop() {
 
   //Pause vor dem nächsten Durchlauf
   //Serial.read();
-  delay(10000);
+  delay(1000);
 }
 
 
